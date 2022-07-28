@@ -27,7 +27,6 @@ struct SearchFieldShellLine: Shape {
     let height: CGFloat
     
     var x : Double = 0
-
     
     func path(in rect: CGRect) -> Path {
         let delta = self.height / 2
