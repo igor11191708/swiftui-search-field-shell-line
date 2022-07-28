@@ -12,8 +12,8 @@
 * `size`- The height of the component
 * `color` - Lines color
 * `imageName` - Any icon name from systemNane data set
-* `durationScale` - Duration for scale animation
-* `durationMove' - Duration for move animation
+* `durationScale` - Duration of scale animation
+* `durationMove`'` - Duration of movement animation
 
 
 ## SwiftUI example of using package
