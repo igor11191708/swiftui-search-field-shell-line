@@ -1,6 +1,9 @@
 # SwiftUI Search field
 ## Search field with wrap and unwrap animation effect
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FThe-Igor%2Fswiftui-search-field-shell-line%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/The-Igor/swiftui-search-field-shell-line)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FThe-Igor%2Fswiftui-search-field-shell-line%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/The-Igor/swiftui-search-field-shell-line)
+
 ## Creation
 ```swift
       @State var text : String = ""
