@@ -51,10 +51,10 @@ public struct SearchFieldShell: View {
     /// Input text
     @Binding var text: String
 
-    /// Duration for scale animation
+    /// Duration of scale animation
     let durationScale: CGFloat
 
-    /// Duration for move animation
+    /// Duration of movement animation
     let durationMove: CGFloat
 
     // MARK: - Life circle
@@ -64,8 +64,8 @@ public struct SearchFieldShell: View {
     ///   - size: The height of the component
     ///   - color: Lines color
     ///   - imageName: Any icon name from systemNane data set
-    ///   - durationScale: Duration for scale animation
-    ///   - durationMove: Duration for move animation
+    ///   - durationScale: Duration of scale animation
+    ///   - durationMove: Duration of movement animation
     public init(
         text : Binding<String>,
         size: CGFloat = 75,
