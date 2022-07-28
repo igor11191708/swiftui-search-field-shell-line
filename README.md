@@ -14,7 +14,7 @@
 ### Optional
 * `size`- The height of the component
 * `color` - Lines color
-* `imageName` - Any icon name from systemNane data set
+* `imageName` - Any icon name from SF symbols
 * `durationScale` - Duration of scale animation
 * `durationMove` - Duration of movement animation
 
