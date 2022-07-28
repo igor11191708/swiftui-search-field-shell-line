@@ -206,6 +206,7 @@ public struct SearchFieldShell: View {
 
 }
 
+#if DEBUG
 struct SearchField_Previews: PreviewProvider {
     static var previews: some View {
         GeometryReader { proxy in
@@ -217,12 +218,4 @@ struct SearchField_Previews: PreviewProvider {
         
     }
 }
-
-#if os(OSX)
-    extension NSTextField {
-        override open var focusRingType: NSFocusRingType {
-            get { .none }
-            set { }
-        }
-    }
 #endif
