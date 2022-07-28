@@ -42,7 +42,7 @@ public struct SearchFieldShell: View {
     /// The height of the component
     let size: CGFloat
 
-    /// Any icon name from systemNane data set
+    /// Any icon name from SF symbols
     let imageName: String
 
     /// Lines color
@@ -63,7 +63,7 @@ public struct SearchFieldShell: View {
     /// - Parameters:
     ///   - size: The height of the component
     ///   - color: Lines color
-    ///   - imageName: Any icon name from systemNane data set
+    ///   - imageName: Any icon name from SF symbols
     ///   - durationScale: Duration of scale animation
     ///   - durationMove: Duration of movement animation
     public init(
