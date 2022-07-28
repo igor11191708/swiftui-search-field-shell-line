@@ -14,7 +14,6 @@ struct SearchFieldShellLine: Shape {
     /// Lines thickness
     private let lineHeight: CGFloat = 1
     
-    
     /// Aminatable data
     var animatableData: Double {
         get { return x }
@@ -45,6 +44,7 @@ struct SearchFieldShellLine: Shape {
         }
     }
 }
+
 #if DEBUG
 struct SearchFieldShellLine_Previews: PreviewProvider {
     static var previews: some View {
