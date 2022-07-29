@@ -67,7 +67,7 @@ public struct SearchFieldShell: View {
     ///   - durationScale: Duration of scale animation
     ///   - durationMove: Duration of movement animation
     public init(
-        text : Binding<String>,
+        text: Binding<String>,
         size: CGFloat = 75,
         color: Color = .blue,
         imageName: String = "magnifyingglass",
@@ -207,15 +207,15 @@ public struct SearchFieldShell: View {
 }
 
 #if DEBUG
-struct SearchField_Previews: PreviewProvider {
-    static var previews: some View {
-        GeometryReader { proxy in
-            SearchFieldShell(text: .constant("search text"))
-                .padding(.horizontal)
-                .offset(y: proxy.size.height / 3)
-                
-        }.background(.black)
-        
+    struct SearchField_Previews: PreviewProvider {
+        static var previews: some View {
+            GeometryReader { proxy in
+                SearchFieldShell(text: .constant("search text"))
+                    .padding(.horizontal)
+                    .offset(y: proxy.size.height / 3)
+
+            }.background(.black)
+
+        }
     }
-}
 #endif

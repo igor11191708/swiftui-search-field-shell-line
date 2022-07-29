@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-/// Line with animation of lenght
+/// Line with animation of length
 ///  Utility component for ``SearchFieldShell``
 struct SearchFieldShellLine: Shape {
     
     /// Lines thickness
     private let lineHeight: CGFloat = 1
     
-    /// Aminatable data
+    /// Animatable data
     var animatableData: Double {
         get { return x }
         set { x = newValue }
@@ -28,7 +28,7 @@ struct SearchFieldShellLine: Shape {
     /// Available height size for component
     let height: CGFloat
         
-    /// Animatable variable for animatiing line length
+    /// Animatable variable for animating line length
     var x : Double = 0
     
     
