@@ -150,6 +150,7 @@ public struct SearchFieldShell: View {
                 .padding(.trailing, size / 2)
                 .font(.system(size: size * 0.75))
                 .focused($fieldIsReady)
+                .foregroundColor(color)
         }
     }
 
