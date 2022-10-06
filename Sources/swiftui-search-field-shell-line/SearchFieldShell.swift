@@ -125,6 +125,7 @@ public struct SearchFieldShell: View {
         withAnimation(.easeOut(duration: durationMove)) {
             animateLine.toggle()
             trim = 1
+            text = ""
             DispatchQueue.main.asyncAfter(deadline: .now() + durationMove) {
                 withAnimation(.easeInOut(duration: durationScale)) {
                     animateScale.toggle()
