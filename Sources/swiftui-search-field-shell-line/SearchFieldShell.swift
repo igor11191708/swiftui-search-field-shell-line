@@ -8,6 +8,7 @@
 import SwiftUI
 
 /// Search field with wrap and unwrap animation effect
+@available(iOS 15.0, macOS 12.0, tvOS 16.0, watchOS 8.0, *)
 public struct SearchFieldShell: View {
 
     /// Field focus management
